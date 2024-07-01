@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #edeef0;
+    background-image: url('bg_bg_jpg.jpg'); /* Ensure correct image path and format */
+    background-size: cover;
+    background-position: center;
+    color: #333; /* Changed text color for better readability */
+    padding: 50px;
+    height: 100vh;
+    background-repeat: ;
+    transition: 0.5;
+}
+
+header {
+    background-color:transparent;
+    color: #ececec00; /* Changed text color for better readability */
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+
+    
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    text-shadow: 5px 5px 10px black;
+
+
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #e8e4e4; /* Changed text color for better readability */
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-size: 20px;
+    text-shadow: 5px 5px 10px black;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #597ad4;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.main-content {
+    text-align: center;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #f2f0f0;
+    text-align: center;
+    padding: 10px 0;
+    position: ;
+    width: 100%;
+    bottom: 0;
+    margin-left: ;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+/* carousel-inner{
+    width: 180vh; 
+    height: 50vh;
+    align-items: center; 
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: auto;
+} */
+/* nav ul li :hover{
+    background-color: rgb(233, 206, 169);
+} */
+nav ul li :hover .dropdown{
+    background-color: azure;
+    color:;
+}
+nav ul li a:hover {
+    background-color: rgb(108, 154, 194);
+}
+#videoBG {
+    position:fixed;
+    z-index: -1;
+}
+
+
+
+  
+ 
